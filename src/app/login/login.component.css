@@ -1,0 +1,17 @@
+.login-form-mr {
+  margin: 5% auto;
+}
+.full-with {
+  width: 100%;
+}
+.text-white {
+  color: white;
+}
+.link-option {
+  font-size: 90%;
+  color: #0067b8;
+}
+a.link-option:visited {
+  font-size: 90%;
+  color: #0067b8;
+}

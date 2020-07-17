@@ -1,0 +1,11 @@
+POST https://fcm.googleapis.com/fcm/send HTTP/1.1
+Authorization: key=AAAAe9PhiTo:APA91bEtvQq4CutnGARd3b-Ntk1vn5iSai6cas3FNCECUz6ye-faDeTgiBaNqRLfHYxVEcmemNJuO25X2TDVyrUxhx6Kh2gvpEOrYnekt5bHojVzOsHDpIWJ33JzuQhLPVD5Y8_5VBd3
+Content-Type: application/json
+
+{
+ "notification": {
+ "title": "Hey there.", 
+ "body": "I want tell you something."
+ },
+ "to" : "d8QfPjwFYuQa4nzBSLGy9R:APA91bH_UeyVlnfcw7HIhC3TdnVGefo3I84tRuHdVwMXreQ8yjhmlOh8BUY9XScU0Xa4NYZBk0QengEO4OWFY4YsgxkZ76lpDhl6CxPyB1D4iAeW8JJmh5eUkUXCaZE9cVuk0cyEFjO1"
+}
